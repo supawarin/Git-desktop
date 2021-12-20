@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(49, 46, 46);
+    background-color: g#ecf0f3;
+}
+.login-div{
+    width: 430px;
+    height: 650px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,-13px -13px 20px #fff;
+
+}
+
+.fields{
+    width: 90%;
+    padding: 75px 5px 5px 5px;
+}
+.fields input{
+    width: 100%;
+    border: 1px solid rgb(172, 2, 121);
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    font-size: 18px;
+    color: black;
+    padding: 20px 30px 20px 50px;
+    margin-bottom: 30px;
+    box-shadow: 13px 13px 20px #cbced1,-13px -13px 20px #fff;
+    position: relative;
+    
+}
+.signin-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgb(209, 6, 74);
+    color: white;
+    box-shadow: 13px 13px 20px #cbced1,-13px -13px 20px #fff;
+    transition: all 0.5s;
+    margin-top: 10px;
+}
+.signin-button:hover{
+    color: pink;
+}
+.signin-button:active{
+    background-color: tomato;
+}
+img{
+    box-shadow: 13px 13px 20px #cbced1,-13px -13px 20px #fff;
+    border-radius: 5px;
+}
+.link{
+    padding-top: 30px;
+    text-align: center;
+ 
+
+}
+.link a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(209, 6, 74);
+}
+.fields i{
+    position:absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: rgb(209, 6, 74);
+    
+    
+}
